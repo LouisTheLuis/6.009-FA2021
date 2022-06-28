@@ -1,0 +1,7 @@
+(define (poly-val coeffs x)
+ (if (=? (length coeffs) 0) 
+  0
+  (+ (nth coeffs 0) (* x (poly-val (tail coeffs) x)))
+ )
+)
+

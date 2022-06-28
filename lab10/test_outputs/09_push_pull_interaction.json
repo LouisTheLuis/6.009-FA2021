@@ -1,0 +1,86 @@
+[
+  [
+    [
+      [["COMPUTER"], ["IS"], ["PULL"], [], [], [], ["WALL"]],
+      [["ROCK"], ["IS"], ["PUSH"], [], [], [], ["IS"]],
+      [["SNEK"], ["IS"], ["YOU"], [], [], [], ["STOP"]],
+      [[], [], [], [], [], [], []],
+      [[], ["computer"], ["rock", "computer"], ["computer"], ["snek"], [], []],
+      [[], [], [], [], [], [], []],
+      [
+        ["computer"],
+        ["wall", "rock"],
+        ["computer"],
+        ["computer"],
+        ["snek"],
+        [],
+        []
+      ],
+      [[], [], [], [], [], [], []]
+    ],
+    false
+  ],
+  [
+    [
+      [["COMPUTER"], ["IS"], ["PULL"], [], [], [], ["WALL"]],
+      [["ROCK"], ["IS"], ["PUSH"], [], [], [], ["IS"]],
+      [["SNEK"], ["IS"], ["YOU"], [], [], [], ["STOP"]],
+      [[], [], [], [], [], [], []],
+      [[], [], ["computer"], ["rock", "computer"], ["computer"], ["snek"], []],
+      [[], [], [], [], [], [], []],
+      [
+        ["computer"],
+        ["wall", "rock"],
+        [],
+        ["computer"],
+        ["computer"],
+        ["snek"],
+        []
+      ],
+      [[], [], [], [], [], [], []]
+    ],
+    false
+  ],
+  [
+    [
+      [["COMPUTER"], ["IS"], ["PULL"], [], [], [], ["WALL"]],
+      [["ROCK"], ["IS"], ["PUSH"], [], [], [], ["IS"]],
+      [["SNEK"], ["IS"], ["YOU"], [], [], [], ["STOP"]],
+      [[], [], [], [], [], [], []],
+      [[], [], [], ["computer"], ["rock", "computer"], ["computer"], ["snek"]],
+      [[], [], [], [], [], [], []],
+      [
+        ["computer"],
+        ["wall", "rock"],
+        [],
+        [],
+        ["computer"],
+        ["computer"],
+        ["snek"]
+      ],
+      [[], [], [], [], [], [], []]
+    ],
+    false
+  ],
+  [
+    [
+      [["COMPUTER"], ["IS"], ["PULL"], [], [], [], ["WALL"]],
+      [["ROCK"], ["IS"], ["PUSH"], [], [], [], ["IS"]],
+      [["SNEK"], ["IS"], ["YOU"], [], [], [], ["STOP"]],
+      [[], [], [], [], [], [], []],
+      [[], [], [], ["computer"], ["rock", "computer"], ["computer"], ["snek"]],
+      [[], [], [], [], [], [], []],
+      [
+        ["computer"],
+        ["wall", "rock"],
+        [],
+        [],
+        ["computer"],
+        ["computer"],
+        ["snek"]
+      ],
+      [[], [], [], [], [], [], []]
+    ],
+    false
+  ]
+]

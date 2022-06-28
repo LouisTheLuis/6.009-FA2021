@@ -1,0 +1,26 @@
+(begin
+    (define (repeat-helper n i func)
+        (if (=? n i)
+            #t
+            (begin (func i) (repeat-helper n (+ 1 i) func))
+        )
+    )
+    (define (repeat-n-times n func) (repeat-helper n 0 func))
+
+    (define (square size)
+        (repeat-n-times 4 (lambda (_) (begin
+                (turtle forward size)
+                (turtle left 90)
+            ))
+        )
+    )
+
+    (repeat-n-times 50 (lambda (i) (begin
+        (square (* i 5))
+        (turtle penup)
+        (turtle forward i)
+        (turtle pendown)
+        (turtle left 10)
+    ))
+    )
+)
